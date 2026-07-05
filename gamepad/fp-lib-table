@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "gamepad-backups") (type "KiCad") (uri "${KIPRJMOD}/gamepad-backups.pretty") (options "") (descr ""))
+	(lib (name "oled_module") (type "KiCad") (uri "C:/Users/Mehmet Tahir/Desktop/GamePad/oled_module.pretty") (options "") (descr ""))
+	(lib (name "spdt_slide_switch") (type "KiCad") (uri "C:/Users/Mehmet Tahir/Desktop/GamePad/spdt_slide_switch.pretty") (options "") (descr ""))
+)

@@ -1,0 +1,106 @@
+(footprint "spdt_slide_switch"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.54 -3.04 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2c82604e-3b46-4a0d-8e9d-b8e65c533fac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "spdt_slide_switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bffd2238-2136-4514-bc87-a3f7e2f99613")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbba5662-7ebf-45d5-922f-3724b305d9c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "974a9055-21f7-4570-ad53-aed1ca5aa0cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 2.54 -10.16)
+		(end 12.7 -5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "30a76274-f957-45a0-8237-de9e17b3616e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78c41d1b-aa49-4bc1-b77d-c2e57b2bc2d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 5.08 -7.62)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9793fc56-63ea-447d-8cf8-6554ee20f013")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 -7.62)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a63f3bb-738f-4ca6-84bd-90f02bb1c73a")
+	)
+	(pad "3" thru_hole circle
+		(at 10.16 -7.62)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a39bf23b-8e5d-461c-89a2-937743bbe5b4")
+	)
+	(embedded_fonts no)
+)
